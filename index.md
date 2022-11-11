@@ -1,26 +1,22 @@
 ---
-title: Vanilla OS Documentation
-description: Find out how to use Vanilla OS and all its tools and settings.
+title: Gezel.io
+description: Find out how to use all offerings from Gezel.io
 ---
 
-# Vanilla OS
-Taste the GNOME Vanilla experience on Ubuntu with some spice.
+# Welcome to wiki.gezel.io
+Bringing tools to your community.
 
-## FAQ
-Answers to the most frequently asked questions (even though the project is very young).
-- **Why a new Distribution?**\
-  Vanilla OS arose out of the need for an Ubuntu-based Linux distribution that 
-  would provide vanilla GNOME without any changes to the user 
-  experience. Later, its scope was extended to experiment with some tools and 
-  technologies, such as Almost (on-demand immutability) and Apx (the 
-  Distrobox-based subsystem).
-- **Does it use OSTree?**\
-  No. Vanilla OS achieves immutability through [`almost`](https://github.com/Vanilla-OS/almost). 
-  We wrote this utility for On-Demand Immutability based on the 
-  immutability attribute of files. This approach works on any partition 
-  schema/file system. OSTree may still be considered in the future.
-- **Rolling Release?**\
-  No. Vanilla OS is a point release and follows the Ubuntu release cycle.
+## What is Gezel?
+Learn about everything that we have to offer.
+- **Gezel Bot**\
+Gezel Bot is our free Discord bot to help you notify your community when you go live on YouTube or Twitch, as well as some awesome additional tools for basic
+moderation such as **role reactions**, **embeds**, and so much more!\
+<button class="" name="gezelbot">Get Gezel Bot</button>
+
+- **Gezel Bot**\
+Gezel Bot is our free Discord bot to help you notify your community when you go live on YouTube or Twitch, as well as some awesome additional tools for basic
+moderation such as **role reactions**, **embeds**, and so much more!\
+<button class="" name="gezelbot">Get Gezel Bot</button>
 
 ## Sections
 - **[Immutability (`almost`)](/docs/almost)**\
