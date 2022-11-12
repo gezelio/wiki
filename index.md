@@ -37,4 +37,4 @@ You can add any social media profiles or links, and the system will automaticall
 
 ## YouTube Channel Rewards
 YouTube Channel Rewards extension, brings your [Streamerbot](https://streamer.bot) rewards to YouTube via a [Chrome extension](https://gezel.io/download)!\
-<a href="/docs/ytcr" class="button" name="ytcr">Get Started</a>
+<a href="/ytcr" class="button" name="ytcr">Get Started</a>
