@@ -124,8 +124,10 @@ Add the following URL (and update your username) to a `custom dock` inside `OBS 
 It's likely you've set up channel points with StreamerBot before for your Twitch, but if you haven't, you can watch IRLCreates video [here](https://www.youtube.com/watch?v=nlNkGBWA1A0). This should give you an idea on how to get started.
 The channel points used will be the ones under the “Twitch category” on StreamerBot.
 
-## **There are some important things to know what we will pull into the YouTube Channel Points that you should pay attention to**
+---
+## Context
 
+There are some important things to know what we will pull into the YouTube Channel Points that you should pay attention to:
 ### Group
 **The channel rewards you want on YouTube should be under a group called `YTCR`**
 -   You can add rewards to a group by double clicking on one, and under ‘group’ type `YTCR`
