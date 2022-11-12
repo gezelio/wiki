@@ -1,5 +1,5 @@
 :root {
-    --c-vanilla-brand: #ffbf48;
+    --c-vanilla-brand: #7eaac8;
     --c-primary: #e4e3df;
     --c-secondary: #f2f1ed;
 
@@ -26,7 +26,7 @@
     --c-code-block: var(--c-secondary);
 
     /* Highlight */
-    --c-highlight: #fbff006b;
+    --c-highlight: #7eaac8;
 }
 
 /* Anim */
@@ -197,7 +197,7 @@ aside ul {
 
 aside li a.active {
     font-weight: 700;
-    color: #ffeb3b;
+    color: #7eaac8;
 }
 
 /* Code */
