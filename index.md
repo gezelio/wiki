@@ -19,15 +19,21 @@ Please know that if you need assistance, the best place to be is our [Discord](h
 
 # What is Gezel?
 [Learn more on our homepage](https://gezel.io)
+
+---
 ## Gezel Bot
 Gezel Bot is our free Discord bot to help you notify your community when you go live on YouTube or Twitch, as well as some awesome additional tools for basic
 moderation such as **role reactions**, **embeds**, and so much more!\
 <a href="https://bot.gezel.io" class="button" name="gezelbot">Get Gezel Bot</a>
 
+---
+
 ## Mystlink
 Mystlink is a landing page builder that makes it easy for you to build a high-quality page from scratch, with no coding or technical experience required.
 You can add any social media profiles or links, and the system will automatically integrate them into the site for you.\
 <a href="https://mystl.ink" class="button" name="mystlink">Get Started</a>
+
+---
 
 ## YouTube Channel Rewards
 YouTube Channel Rewards extension, brings your [Streamerbot](https://streamer.bot) rewards to YouTube via a [Chrome extension](https://gezel.io/download)!\
