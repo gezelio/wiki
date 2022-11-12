@@ -17,7 +17,7 @@
         --c-dark-aside-shadow-content: #222222cf;
 
         /* Code block in plan text */
-        --c-dark-code-plaintext-background: #00ffff2e;
+        --c-dark-code-plaintext-background: #1d272e;
         --c-dark-code-plaintext: var(--c-vanilla-brand);
 
         /* Code block */
