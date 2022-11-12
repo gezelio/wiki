@@ -6,7 +6,8 @@ description: A greater understanding of YTCR
 # FAQ and known limitations
 Our system won't work for every streamer and every community, so to help you decide if this is right for you, we've compiled this list of known limitations to help you understand.
 
-### It's important to note that these limitations may change over time, and we'll announce such changes on our [Twitter](https://twitter.com/gezel_io) and [Discord](https://gezel.io/discord), so ensure you're there to get updates!
+It's important to note that these limitations may change over time, and we'll announce such changes on our [Twitter](https://twitter.com/gezel_io) and [Discord](https://gezel.io/discord), so ensure you're there to get updates!
+
 ---
 
 # General Stuff
