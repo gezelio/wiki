@@ -15,11 +15,11 @@ It's important to note that these limitations may change over time, and we'll an
 ## Streamerbot Reliance
 YTCR is built directly with Streamerbot in mind. It ties in and is only officially supported through the use of SB. This means that if you use something like MixItUp, SAMMI or equivelant, this most likely won't work. There may be ways to work around this and a way to link these together, but for the best out of our tool, we recommend using Streamerbot.
 
->This isn't a 'problem' but by design. We plan on sticking with SB for all of our development, and have no planning on adding this to platforms other than Streamerbot.
+> This isn't a 'problem' but by design. We plan on sticking with SB for all of our development, and have no planning on adding this to platforms other than Streamerbot.
 ---
 ## Mobile Users
 If most of your community watch your streams via the YouTube app etc, this won't offer much to those viewers that this time. YTCR is built with a Chrome Extension, and currently has 0 chat functionality. For your community to use YTCR, they must have Chrome (or a [Chromium based browser](https://www.zdnet.com/pictures/all-the-chromium-based-browsers/))
->This is something we plan on implementing down the road, however YouTube are quite strict with their "quota" and we'll see some serious problems if this isn't upgraded first.
+> This is something we plan on implementing down the road, however YouTube are quite strict with their "quota" and we'll see some serious problems if this isn't upgraded first.
 ---
 ## Discord Auth
 Going back to the whole "***YouTube = strict business***", we've decided to verify the ownership of your channel via signing in to the site via Discord. This allows us to pull your connected YouTube channels, and verify the ownership through those means.
