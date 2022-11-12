@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <link rel="icon" type="image/x-icon" href="https://cdn.gezel.io/logos/transparent/gezel.png">
-  <script src="https://kit.fontawesome.com/e311482788.js" crossorigin="anonymous"></script>
-  {% include head.html %}
+<link rel="icon" type="image/x-icon" href="https://cdn.gezel.io/logos/transparent/gezel.png">
+<script src="https://kit.fontawesome.com/e311482788.js" crossorigin="anonymous"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+{% include head.html %}
 
-  <body>
-    <main>
-      <aside>
+<body>
+  <main>
+    <aside>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="https://gezel.io">Gezel</a>
+        </li>
+        <li>
+          <a href="https://gezel.io/discord">Discord</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a class="text-2xl" href="https://ytcr.gezel.io">YouTube Channel Rewards</a>
+        </li>
+        <li>
+          <a href="/docs/ytcr">Get Started</a>
+        </li>
+        <li>
+          <a href="/docs/ytcr/faq">FAQ</a>
+        </li>
+      </ul>
+      <p>Gezel Bot</p>
+      <ul>
+        <li>
+          <a href="/docs/bot">Get Started</a>
+        </li>
+        <li>
+          <a href="https://bot.gezel.io">Get The Bot</a>
+        </li>
+      </ul>
+      <div class="summary">
+        <b>Summary</b>
         <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="https://gezel.io">Gezel</a>
-          </li>
-          <li>
-            <a href="https://gezel.io/discord">Discord</a>
-          </li>
+          <li>Loading...</li>
         </ul>
-        <p>YouTube Channel Rewards</p>
-        <ul>
-          <li>
-            <a href="/docs/ytcr">Get Started</a>
-          </li>
-          <li>
-            <a href="/docs/ytcr/faq">FAQ</a>
-          </li>
-        </ul>
-        <p>Gezel Bot</p>
-        <ul>
-          <li>
-            <a href="/docs/bot">Get Started</a>
-          </li>
-          <li>
-            <a href="https://bot.gezel.io">Get The Bot</a>
-          </li>
-        </ul>
-        <div class="summary">
-          <b>Summary</b>
-          <ul>
-            <li>Loading...</li>
-          </ul>
-        </div>
-      </aside>
-      <article>
-        <div class="container">{{ content }}</div>
-      </article>
-    </main>
-    {% include footer.html %}
-  </body>
+      </div>
+    </aside>
+    <article>
+      <div class="container">{{ content }}</div>
+    </article>
+  </main>
+  {% include footer.html %}
+</body>
 
 </html>
