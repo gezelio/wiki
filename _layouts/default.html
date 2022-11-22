@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <main>
-      <aside>
+<body>
+  <main>
+    <aside>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="https://gezel.io">Gezel</a>
+        </li>
+        <li>
+          <a href="https://gezel.io/discord">Discord</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href=""><i class="fa-brands fa-youtube" style="color: #b91c1c"></i> YouTube Channel Rewards</a>
+        </li>
+        <li>
+          <a href="/ytcr"><i class="fa-solid fa-bolt-lightning"></i> Get Started</a>
+        </li>
+        <li>
+          <a href="/ytcr/faq"><i class="fa-solid fa-question"></i> FAQ</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href=""><i class="fa-solid fa-robot" style="color: #7da9c7"></i> Gezel Bot</a>
+        </li>
+        <li>
+          <a href="/gezel-bot"><i class="fa-solid fa-bolt-lightning"></i> Get Started</a>
+        </li>
+        <li>
+          <a href="/ytcr/faq"><i class="fa-solid fa-question"></i> FAQ</a>
+        </li>
+      </ul>
+      <div class="summary">
+        <b>Summary</b>
         <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="https://gezel.io">Gezel</a>
-          </li>
-          <li>
-            <a href="https://gezel.io/discord">Discord</a>
-          </li>
+          <li>Loading...</li>
         </ul>
-        <p>YouTube Channel Rewards</p>
-        <ul>
-          <li>
-            <a href="/ytcr"><i class="fa-solid fa-bolt-lightning"></i> Get Started</a>
-          </li>
-          <li>
-            <a href="/ytcr/faq"><i class="fa-solid fa-question"></i> FAQ</a>
-          </li>
-        </ul>
-        <div class="summary">
-          <b>Summary</b>
-          <ul>
-            <li>Loading...</li>
-          </ul>
-        </div>
-      </aside>
-      <article>
-        <div class="container">{{ content }}</div>
-      </article>
-    </main>
-    {% include footer.html %}
-  </body>
+      </div>
+    </aside>
+    <article>
+      <div class="container">{{ content }}</div>
+    </article>
+  </main>
+  {% include footer.html %}
+</body>
 
 </html>
