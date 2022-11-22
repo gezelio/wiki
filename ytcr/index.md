@@ -29,7 +29,7 @@ The only thing your viewers have to do is download the Chrome Extension
 	- This is due to how you'll implement channel rewards on Streamerbot.
 
 ---
-# Streamerbot Settings
+## Streamerbot Settings
 ### Download & Import 
 <ul class="links-list">
 <li><a rel="noreferrer" target="_blank" class="" href="https://github.com/gezelio/YTCR-Streamerbot/releases/tag/v0.1.2">Click me to download YTCR v0.1.2 here</em></a> | You want the "ytcr_v.0.1.2.gezel" file</li>
@@ -49,7 +49,7 @@ You should now have three new `Actions` inside your Streamerbot:
 Click the `Set Channel Rewards` action and you should see two Sub-Actions. Double click `Set global "youtube_channel_id"`\
 Where it says `CHANGEME` beside `value`, update this to your YouTube channel ID. You can get that [here](https://www.youtube.com/account_advanced) if you aren't aware of it.
 
-### Clipping Tool
+## Clipping Tool
 The Clipping Tool is a new feature from `v0.1.2` that adds a clipping feature to your stream. This utilizes the OBS `Replay Buffer` feature and would require additional setup. 
 We made this because YouTube's clipping feature doesn't actually create a downloadable clip to post on other social media platforms, so we hope this will be a good alternative to Twitch's clip feature.
 >**If you don't plan on using Clipping Tool, feel free to move to the [next section](#WebSocket).**
@@ -78,7 +78,7 @@ It only allows one clip every minute. It does this by renaming the files by 'yea
 This is a fork of [HYP3RSTRIKE](https://youtube.com/hyp3rstrike)'s [Advanced OBS Clipper](https://github.com/hyp3rstrike/StreamerBot_CSharp/blob/main/AdvancedOBSClipper.cs) to function with YTCR as a separate icon within the extension. Credits go to him for giving us this idea, so I'd recommend dropping him a [sub](https://youtube.com/hyp3rstrike) to say thank you!
 
 ---
-# Websocket Connection
+## Websocket Connection
 Inside Streamerbot, head over to:
 - Servers/Clients
     - Websocket Clients
@@ -107,7 +107,7 @@ Right click and select ‘Add’ and insert the following:
 >**Tip:** Anytime you add/remove/modify channel rewards while connected to the WebSocket, you must go into `Servers/Clients` > `Websocket Clients` and right-click `disconnect` and then `reconnect` to pull the changes. It only pulls the reward data on load at this present time.
 
 ---
-# YTCR Dashboard
+## YTCR Dashboard
 We'll go back over actually adding channel rewards once we get you connected on the site, as this completes the websocket connection and confirms you own the `Channel ID` you entered before.
 1.  Navigate to [https://ytcr.gezel.io](https://ytcr.gezel.io)
 2.  Create an account
@@ -120,12 +120,12 @@ Add the following URL (and update your username) to a `custom dock` inside `OBS 
 ` https://ytcr.gezel.io/obs/USERNAME?darkmode=true&refresh=true`
 
 ---
-# Setting up channel points
+## Setting up channel points
 It's likely you've set up channel points with StreamerBot before for your Twitch, but if you haven't, you can watch IRLCreates video [here](https://www.youtube.com/watch?v=nlNkGBWA1A0). This should give you an idea on how to get started.
 The channel points used will be the ones under the “Twitch category” on StreamerBot.
 
 ---
-## Context
+### Context
 
 There are some important things to know what we will pull into the YouTube Channel Points that you should pay attention to:
 ### Group
@@ -143,7 +143,7 @@ There are some important things to know what we will pull into the YouTube Chann
 > The cost of a channel point inside StreamerBot will also be the cost of the action inside YouTube. Users generate points every 5 minutes, so be sure you set these fair with how many points you offer every 5 minutes from the [Dashboard](https://ytcr.gezel.io).
 
 ---
-# Install the Browser extension
+## Install the Browser extension
 It's important you and your viewers install the Chrome extension, as that's what will bring the buttons to you and your community. 
 >As this is an extension, it's important to know that this will only work on Chrome or other Chromium based browsers (pretty much anything that's not Safari or Firefox) and will also not work on the YouTube app, nor in YouTube Studio view at this time.
 
