@@ -1,6 +1,6 @@
 ---
 title: YouTube Channel Rewards Tutorial - Powered by Gezel.io
-description: How to set up YTCR for YouTube Channel Rewards on your Streamerbot application
+description: How to set up YTCR for YouTube Channel Rewards on your StreamerBot application
 ---
 
 # YouTube Channel Rewards
@@ -23,27 +23,27 @@ The only thing your viewers have to do is download the Chrome Extension
 ---
 
 ## Prerequisites
-- [**Streamerbot**](https://streamer.bot)
-	- Must be version `v0.1.8` or newer.
+- [**StreamerBot**](https://streamer.bot)
+	- Must be version `v0.1.16` or newer.
 - Affiliated [Twitch](https://twitch.tv) account
-	- This is due to how you'll implement channel rewards on Streamerbot.
+	- This is due to how you'll implement channel rewards on StreamerBot.
 
 ---
-## Streamerbot Settings
+## StreamerBot Settings
 ### Download & Import 
 <ul class="links-list">
-<li><a rel="noreferrer" target="_blank" class="" href="https://github.com/gezelio/YTCR-Streamerbot/releases/tag/v0.1.2">Click me to download YTCR v0.1.2 here</em></a> | You want the "ytcr_v.0.1.2.gezel" file</li>
+<li><a rel="noreferrer" target="_blank" class="" href="https://github.com/gezelio/YTCR-StreamerBot/blob/main/ytcr-0.1.3.gezel">Click me to download YTCR v0.1.3 here</a> | Copy and paste this string into StreamerBot. </li>
 </ul>
 
 Import the file
 1. Launch Streamer.bot
 2. Select 'Import' from the top right panel
-3. Drag the file you downloaded from our GitHub into the empty `import string` box.
+3. Copy/paste the code into the `import string` box.
 
-You should now have three new `Actions` inside your Streamerbot:
+You should now have three new `Actions` inside your StreamerBot:
 
 - Clipping Tool
-- Execute Channel Reward Rededem
+- Execute Channel Reward Redeem
 - Set Channel Rewards
 
 Click the `Set Channel Rewards` action and you should see two Sub-Actions. Double click `Set global "youtube_channel_id"`\
@@ -64,7 +64,7 @@ It only allows one clip every minute. It does this by renaming the files by 'yea
 *This will help you ensure it's always running when streaming.*
 - Inside the `Recording` tab, these are also your settings for the `Replay Buffer`
 	- Take note of the recording path and format, we'll need these for StreamerBot. 
-## Streamerbot Settings
+## StreamerBot Settings
 - Select the `Clipping Tool` Action and update the following;
 	- Set global "yourReplayPath"
   		- This is where your `recording path` was from OBS.
@@ -79,7 +79,7 @@ This is a fork of [HYP3RSTRIKE](https://youtube.com/hyp3rstrike)'s [Advanced OBS
 
 ---
 ## Websocket Connection
-Inside Streamerbot, head over to:
+Inside StreamerBot, head over to:
 - Servers/Clients
     - Websocket Clients
 
@@ -88,10 +88,10 @@ Right click and select ‘Add’ and insert the following:
 |SECTION | INPUT|
 |-----------------------------------|-----------------------------------|
 |               Name            |           Gezel's YTCR        |
-|             Endpoint            |      ws://144.172.67.101:82/ws   |
+|             Endpoint            |      wss://ytcr.gezel.io/ws   |
 |     Auto Connect on Startup    |✅|
 |     Reconnect on Disconnect     |✅|
-| TLS (tick the following boxes)  |TLS 1.0|
+| TLS (tick the following boxes)  |TLS 1.0 / TLS 1.1 / TLS 1.2|
 | Retry Interval | 5 seconds |
 
 | Actions | |
